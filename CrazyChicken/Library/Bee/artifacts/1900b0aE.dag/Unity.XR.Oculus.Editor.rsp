@@ -118,6 +118,7 @@
 -define:XR_MGMT_GTE_320
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/HurricaneVR/Framework/Editor/Libs/HurricaneVR.Update.dll"
 -r:"Assets/StarterAssets/Editor/PackageChecker/StarterAssetsPackageChecker.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -406,12 +407,12 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Serialization.dll"
--r:"C:/Users/admin/Desktop/h_da/2nd semester/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.cinemachine@2.8.4/Runtime/ThirdParty/clipper_library.dll"
--r:"C:/Users/admin/Desktop/h_da/2nd semester/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll"
--r:"C:/Users/admin/Desktop/h_da/2nd semester/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
--r:"C:/Users/admin/Desktop/h_da/2nd semester/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"C:/Users/admin/Desktop/h_da/2nd semester/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"C:/Users/admin/Desktop/h_da/2nd semester/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.cinemachine@2.8.4/Runtime/ThirdParty/clipper_library.dll"
+-r:"C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.collab-proxy@1.15.13/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/CrazyChicken/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Oculus.ref.dll"
