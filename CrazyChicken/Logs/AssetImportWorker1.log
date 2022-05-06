@@ -15,7 +15,7 @@ C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/Cr
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51177
+60786
 Successfully changed project path to: C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/CrazyChicken
 C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/CrazyChicken
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/Cr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 56.89 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.30 ms.
+Refreshing native plugins compatible for Editor in 50.22 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.11 ms.
 Initialize engine version: 2021.2.18f1 (0c6e675195cf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/timja/OneDrive/Desktop/H_DA/#_Zweites Semester/P2_Unity/CrazyChicken/CrazyChicken/Assets
@@ -63,51 +63,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008931 seconds.
+Registered in 0.008139 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 50.93 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 44.67 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.582 seconds
+- Completed reload, in  0.546 seconds
 Domain Reload Profiling:
-	ReloadAssembly (582ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (547ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (402ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (382ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (101ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (234ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (220ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
+				InitializePlatformSupportModulesInManaged (53ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (51ms)
+				RefreshPlugins (45ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007410 seconds.
+Registered in 0.007671 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 42.70 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 40.25 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
@@ -126,43 +126,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.098 seconds
+- Completed reload, in  1.140 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1098ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (226ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (782ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (798ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (441ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (415ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
+				RefreshPlugins (40ms)
 				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 2715 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 53 unused Assets / (130.9 KB). Loaded Objects now: 3167.
 Memory consumption went from 109.0 MB to 108.9 MB.
-Total: 3.280100 ms (FindLiveObjects: 0.330500 ms CreateObjectMapping: 0.075500 ms MarkObjects: 2.752600 ms  DeleteObjects: 0.120000 ms)
+Total: 3.441800 ms (FindLiveObjects: 0.310100 ms CreateObjectMapping: 0.074600 ms MarkObjects: 2.939500 ms  DeleteObjects: 0.116400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,11 +177,11 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007561 seconds.
+Registered in 0.009967 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.12 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\timja\OneDrive\Desktop\H_DA\#_Zweites Semester\P2_Unity\CrazyChicken\CrazyChicken\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:257 
@@ -199,40 +199,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
+- Completed reload, in  1.026 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1064ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (793ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (205ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (409ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (403ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.92 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 5.09 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (96.4 KB). Loaded Objects now: 3183.
+Unloading 31 unused Assets / (96.3 KB). Loaded Objects now: 3183.
 Memory consumption went from 108.4 MB to 108.3 MB.
-Total: 3.792800 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.089600 ms MarkObjects: 3.363300 ms  DeleteObjects: 0.041800 ms)
+Total: 4.220600 ms (FindLiveObjects: 0.324500 ms CreateObjectMapping: 0.082600 ms MarkObjects: 3.758500 ms  DeleteObjects: 0.054000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -247,12 +247,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007719 seconds.
+Registered in 0.008761 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.23 ms.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\timja\OneDrive\Desktop\H_DA\#_Zweites Semester\P2_Unity\CrazyChicken\CrazyChicken\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:257 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\timja\OneDrive\Desktop\H_DA\#_Zweites Semester\P2_Unity\CrazyChicken\CrazyChicken\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:242 
@@ -269,40 +269,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.985 seconds
+- Completed reload, in  1.039 seconds
 Domain Reload Profiling:
-	ReloadAssembly (985ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (749ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (190ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (388ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (400ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.65 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 4.31 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (96.4 KB). Loaded Objects now: 3199.
 Memory consumption went from 108.4 MB to 108.3 MB.
-Total: 3.145900 ms (FindLiveObjects: 0.280700 ms CreateObjectMapping: 0.060500 ms MarkObjects: 2.760000 ms  DeleteObjects: 0.043500 ms)
+Total: 3.434100 ms (FindLiveObjects: 0.278700 ms CreateObjectMapping: 0.070100 ms MarkObjects: 3.023400 ms  DeleteObjects: 0.060800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -314,3 +314,529 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011976 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\timja\OneDrive\Desktop\H_DA\#_Zweites Semester\P2_Unity\CrazyChicken\CrazyChicken\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\timja\OneDrive\Desktop\H_DA\#_Zweites Semester\P2_Unity\CrazyChicken\CrazyChicken\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f61d5eefcc74dff84f661b4a4dc8479>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1464ms)
+		BeginReloadAssembly (352ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (147ms)
+		EndReloadAssembly (1009ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (370ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2982 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (497.5 KB). Loaded Objects now: 3503.
+Memory consumption went from 119.4 MB to 118.9 MB.
+Total: 6.061200 ms (FindLiveObjects: 0.544300 ms CreateObjectMapping: 0.097200 ms MarkObjects: 5.132000 ms  DeleteObjects: 0.285400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\timja\OneDrive\Desktop\H_DA\#_Zweites Semester\P2_Unity\CrazyChicken\CrazyChicken\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\timja\OneDrive\Desktop\H_DA\#_Zweites Semester\P2_Unity\CrazyChicken\CrazyChicken\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f61d5eefcc74dff84f661b4a4dc8479>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (753ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.07 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2981 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (420.1 KB). Loaded Objects now: 3519.
+Memory consumption went from 119.6 MB to 119.2 MB.
+Total: 4.231200 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.077200 ms MarkObjects: 3.277500 ms  DeleteObjects: 0.515400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\timja\OneDrive\Desktop\H_DA\#_Zweites Semester\P2_Unity\CrazyChicken\CrazyChicken\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:257 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\timja\OneDrive\Desktop\H_DA\#_Zweites Semester\P2_Unity\CrazyChicken\CrazyChicken\Library\PackageCache\com.unity.xr.oculus@3.0.0\Runtime\OculusLoader.cs:242 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1f61d5eefcc74dff84f661b4a4dc8479>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.91 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2981 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (467.2 KB). Loaded Objects now: 3535.
+Memory consumption went from 119.7 MB to 119.3 MB.
+Total: 3.578700 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.068700 ms MarkObjects: 2.951000 ms  DeleteObjects: 0.245900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84985.328698 seconds.
+  path: Assets/HurricaneVR/TechDemo/TechnieHulls/arm Hull Data.asset
+  artifactKey: Guid(3112798014d991a4bba6ec3291d0a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/TechnieHulls/arm Hull Data.asset using Guid(3112798014d991a4bba6ec3291d0a28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e113d54ab47a1228b75d960198dfa0a') in 0.130273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/dual_half_spear.prefab
+  artifactKey: Guid(8de1a29ec9cf3c645b5ded4732827929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/MeleeWeapons/dual_half_spear.prefab using Guid(8de1a29ec9cf3c645b5ded4732827929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b159d3dcfe6be2ce7c3cd0f407b65f4a') in 0.308897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HurricaneVR/TechDemo/EasyColliderHulls/Button1_LOD0_ConvexHull_1.asset
+  artifactKey: Guid(ed7b8e63e881b9e44b5c77a2543e2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/EasyColliderHulls/Button1_LOD0_ConvexHull_1.asset using Guid(ed7b8e63e881b9e44b5c77a2543e2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc514f29c5b141cb0d2cd4e6348fa22') in 0.012488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HurricaneVR/TechDemo/EasyColliderHulls/crow_bar_ConvexHull_1.asset
+  artifactKey: Guid(be8e02fb8771a764bba4cb73cfb2a68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/EasyColliderHulls/crow_bar_ConvexHull_1.asset using Guid(be8e02fb8771a764bba4cb73cfb2a68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1308f515a00306c2a707b8e16c4550ad') in 0.013684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HurricaneVR/TechDemo/TechnieHulls/glass_outer_1x1 Hull Data.asset
+  artifactKey: Guid(17f36d344cd334042b2da7bc28bdf03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/TechnieHulls/glass_outer_1x1 Hull Data.asset using Guid(17f36d344cd334042b2da7bc28bdf03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8c4c2c45c00d29f09c7b5afd9db74e') in 0.015595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/ChestLP_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(c302fcbacda36244a9f829f2e60613f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/ChestLP_DefaultMaterial_MetallicSmoothness.png using Guid(c302fcbacda36244a9f829f2e60613f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06854a5373cbcd2ed4aca7c9ca5e1978') in 0.052806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Chest.prefab
+  artifactKey: Guid(93fc2aa66c80f944b8eebc6136c55ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Chest.prefab using Guid(93fc2aa66c80f944b8eebc6136c55ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e5324d5b60e1c78f7d04ea06905e53') in 0.053045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ExampleAssets/Models/XRControllerLeft.fbx
+  artifactKey: Guid(e48d18018a0ba46c283d9fd9c227e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/XRControllerLeft.fbx using Guid(e48d18018a0ba46c283d9fd9c227e578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c22c916095e33fe973f0229bc96458') in 0.107175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_right_hand.fbx
+  artifactKey: Guid(d3fde6960c015404f9b509215eb56489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_right_hand.fbx using Guid(d3fde6960c015404f9b509215eb56489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32f2158d6d1e987d016d208e35f6310') in 0.054575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HurricaneVR/Framework/Resources/HVR_ForcePullSettings.asset
+  artifactKey: Guid(68c393e85bc4d514bb4c3f3a5a8997d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Resources/HVR_ForcePullSettings.asset using Guid(68c393e85bc4d514bb4c3f3a5a8997d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e336b26ed2db14b1533cf4970378c2f') in 0.006717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HurricaneVR/TechDemo/Materials/HVR_Grid_Wall.mat
+  artifactKey: Guid(1b94be9df4e28d24f8654684cd53aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Materials/HVR_Grid_Wall.mat using Guid(1b94be9df4e28d24f8654684cd53aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0ed2492b419318b1b1fe243e4ec067') in 0.014328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HurricaneVR/TechDemo/Materials/HVR_DarkBlue.mat
+  artifactKey: Guid(e0e3821ac9b92e74b82c82ab542d80b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Materials/HVR_DarkBlue.mat using Guid(e0e3821ac9b92e74b82c82ab542d80b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890f99429c415bd2d7db4ccf107afa32') in 0.013804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/Templates/HVR_pistol_template.prefab
+  artifactKey: Guid(734d3e693ae42da40bf93ba531fb1d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/Templates/HVR_pistol_template.prefab using Guid(734d3e693ae42da40bf93ba531fb1d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9f9a655fb13b974bca37cb6d19e921') in 0.022831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HurricaneVR/Framework/Editor/Resources/HVRBlendEditor.uss
+  artifactKey: Guid(163382055bc6c7b42abf99ea3b47b0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Editor/Resources/HVRBlendEditor.uss using Guid(163382055bc6c7b42abf99ea3b47b0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cf952eb9c14dc850b944cc00bd991b') in 0.011078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HurricaneVR/Framework/Resources/HandSettings/HVR_Pistol_TwoHand.asset
+  artifactKey: Guid(a913d20be515c0840a2ff9406f9bd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Resources/HandSettings/HVR_Pistol_TwoHand.asset using Guid(a913d20be515c0840a2ff9406f9bd299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f756229758b7a848422b0a5009cf7d0a') in 0.007162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HurricaneVR/Framework/PhysicsSettings/HVR_LineGrabSettings.asset
+  artifactKey: Guid(203d545f2b6cc724aa3a0d6e4fafd082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/PhysicsSettings/HVR_LineGrabSettings.asset using Guid(203d545f2b6cc724aa3a0d6e4fafd082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994c55089422f424270ab6ddff0aa476') in 0.007193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HurricaneVR/Framework/Prefabs/Hands/HVR_GhostHand_Oculus_Right Variant.prefab
+  artifactKey: Guid(336f63f8811fd5249b885e597d5cf44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Prefabs/Hands/HVR_GhostHand_Oculus_Right Variant.prefab using Guid(336f63f8811fd5249b885e597d5cf44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ec8a1e5cc14616ab859698e6a0b4db') in 0.023622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/HVR_shotgun.prefab
+  artifactKey: Guid(39f797aa425763e40b2ede5382f9d9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/HVR_shotgun.prefab using Guid(39f797aa425763e40b2ede5382f9d9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5feeec8f6e4c60841f9f2705bd48b9d4') in 0.042610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HurricaneVR/TechDemo/TechnieHulls/Collision 2 Hull Data.asset
+  artifactKey: Guid(0d75a74e36f911b48ba18b5dd25b46bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/TechnieHulls/Collision 2 Hull Data.asset using Guid(0d75a74e36f911b48ba18b5dd25b46bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063eb71d21b351ad544a24971a5a12a6') in 0.007032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HurricaneVR/Framework/Resources/RecoilSettings/HVR_Recoil_Pistol.asset
+  artifactKey: Guid(48c2a6a066c2787459eae861d5eea50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Resources/RecoilSettings/HVR_Recoil_Pistol.asset using Guid(48c2a6a066c2787459eae861d5eea50d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9f8a4416d9718f36cbcba110ec376a') in 0.007110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HurricaneVR/Framework/Prefabs/HVR_CustomHandRight Variant.prefab
+  artifactKey: Guid(e90900a2c44cf174e8b63baaee0459af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Prefabs/HVR_CustomHandRight Variant.prefab using Guid(e90900a2c44cf174e8b63baaee0459af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edc7943d81fa2ea08270003d9b61130') in 0.085903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_left_hand.fbx
+  artifactKey: Guid(1c2ef2080896bd44ca2e1d1c8ef6f901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_left_hand.fbx using Guid(1c2ef2080896bd44ca2e1d1c8ef6f901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce2283649fc7baa2898b41df114467e') in 0.032737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HurricaneVR/TechDemo/Poses/arrow_shaft.asset
+  artifactKey: Guid(e3fe7ed56d17b90498f73b89dca4e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Poses/arrow_shaft.asset using Guid(e3fe7ed56d17b90498f73b89dca4e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc437faad14198329d01b8d5048d4e1') in 0.006648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/HVR_bullet_trail.prefab
+  artifactKey: Guid(416e18e376860fc499add1ebea2501b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/HVR_bullet_trail.prefab using Guid(416e18e376860fc499add1ebea2501b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376ddc22d0d5dc505a9a14659fcb7c72') in 0.037769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Chest.fbx
+  artifactKey: Guid(434327c7c1c1ffd4ab28b93b0f5e9ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/Chest.fbx using Guid(434327c7c1c1ffd4ab28b93b0f5e9ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131726d3c6a895f7c7b659f487711de8') in 0.040517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HurricaneVR/TechDemo/Resources/HVR Example Socketables.asset
+  artifactKey: Guid(0e83bcde818c784468e6c9a69d44702f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Resources/HVR Example Socketables.asset using Guid(0e83bcde818c784468e6c9a69d44702f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b48de9cb98cbe680a10065e4cb4ae6') in 0.006638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/HVR_smg_magazine.prefab
+  artifactKey: Guid(add805f03ddc3f7498b179e94e22c78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/HVR_smg_magazine.prefab using Guid(add805f03ddc3f7498b179e94e22c78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08790b10eea3d8cf4aae33703b38f5e3') in 0.023656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/Templates/HVR_smg_template.prefab
+  artifactKey: Guid(588e47f5b24022046affcda41226425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Guns/Templates/HVR_smg_template.prefab using Guid(588e47f5b24022046affcda41226425d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980dff6af8d4954abcdac268a0dec43c') in 0.026937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExampleAssets/Textures/Grid_Light_512x512.png
+  artifactKey: Guid(a5888ab2610a91d40a5deefc40b7bfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Grid_Light_512x512.png using Guid(a5888ab2610a91d40a5deefc40b7bfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cabdd40a0ca4be5582da3b55bb5b14d') in 0.017126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HurricaneVR/TechDemo/TechnieHulls/drawer Hull Data.asset
+  artifactKey: Guid(2bef56c99be47524ca762f63f4ce64e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/TechnieHulls/drawer Hull Data.asset using Guid(2bef56c99be47524ca762f63f4ce64e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e42d412da6ebda89cf93add405885f') in 0.025759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HurricaneVR/TechDemo/EasyColliderHulls/HVR_smg_magazine_ConvexHull_0.asset
+  artifactKey: Guid(4a0bade3e1d158744a40af4a92266f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/EasyColliderHulls/HVR_smg_magazine_ConvexHull_0.asset using Guid(4a0bade3e1d158744a40af4a92266f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36184984b4ca337672200aa1d7e8255') in 0.015935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HurricaneVR/TechDemo/TechnieHulls/glass_outer_2x1 Hull Data.asset
+  artifactKey: Guid(be98024a196880548a31395e59a11e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/TechnieHulls/glass_outer_2x1 Hull Data.asset using Guid(be98024a196880548a31395e59a11e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cff5cc282ba210c9abbfbfc570540e') in 0.006398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HurricaneVR/Framework/Resources/Haptics/HVR_GrabHaptics.asset
+  artifactKey: Guid(4253c613ebc69fa439e509571ef54d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Resources/Haptics/HVR_GrabHaptics.asset using Guid(4253c613ebc69fa439e509571ef54d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f314d074e1e254a2496b1a8407863e') in 0.006603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HurricaneVR/Framework/Resources/HandSettings/HVR_LargeWeapon_TwoHanded.asset
+  artifactKey: Guid(0d7faa96cde3eee46a312d34cd930567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Resources/HandSettings/HVR_LargeWeapon_TwoHanded.asset using Guid(0d7faa96cde3eee46a312d34cd930567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6fecea4faf9adf3df6e945984f3a93') in 0.005818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/chalk_board.prefab
+  artifactKey: Guid(f3850465709400a4db0c3af87439bfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Props/chalk_board.prefab using Guid(f3850465709400a4db0c3af87439bfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0adebb5f419ab4752c2cd55b9880d1') in 0.020559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HurricaneVR/TechDemo/Textures/ChestLP_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(7603981570893c54f8fee28aab0b3713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Textures/ChestLP_DefaultMaterial_AlbedoTransparency.png using Guid(7603981570893c54f8fee28aab0b3713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a7fd5a3f6f5a4e5076bc0b0cf4b408') in 0.013850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ExampleAssets/Models/XRControllerRight.fbx
+  artifactKey: Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/XRControllerRight.fbx using Guid(2d10b9b89f2474de9800b152c3d00004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd32cd6ea076ccf5ea76c881515fbf6') in 0.086605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HurricaneVR/Framework/Prefabs/Hands/HVR_CustomHandRight.prefab
+  artifactKey: Guid(d9420cd6b732c874e805d2daa66f8409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Prefabs/Hands/HVR_CustomHandRight.prefab using Guid(d9420cd6b732c874e805d2daa66f8409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17039ad41499607276590528e4f55ea') in 0.018979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_right_hand.prefab
+  artifactKey: Guid(08a9044b5c065044ab67f546bf6b04e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_right_hand.prefab using Guid(08a9044b5c065044ab67f546bf6b04e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5059197c2cffc93a6b42d1918dfea146') in 0.041117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HurricaneVR/TechDemo/Materials/HVR_Yellow.mat
+  artifactKey: Guid(289a1e730e9b0d74fb4f8b5414c76174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Materials/HVR_Yellow.mat using Guid(289a1e730e9b0d74fb4f8b5414c76174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ad2458b77514f91a4a9779dffb6f2e') in 0.014148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_left_hand.prefab
+  artifactKey: Guid(8beaacf77ac8d0d49a9b4284dc399aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Hands/HVR_left_hand.prefab using Guid(8beaacf77ac8d0d49a9b4284dc399aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c055f0e4e8f2020eeadcf3a2022b0ac0') in 0.047602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HurricaneVR/Framework/PhysicsSettings/HVR_HandPullingSettingsHeavy.asset
+  artifactKey: Guid(a4c807483e416ea4195c0d4306747ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/PhysicsSettings/HVR_HandPullingSettingsHeavy.asset using Guid(a4c807483e416ea4195c0d4306747ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e321db6c8ef0df5f85b890deb690da2') in 0.007164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HurricaneVR/TechDemo/Materials/HVR_Grey.mat
+  artifactKey: Guid(ebc79ea24e134144bb0058e160c07044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Materials/HVR_Grey.mat using Guid(ebc79ea24e134144bb0058e160c07044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed3cdb23ebaf0e92cac031acd1b8e22') in 0.014899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/KeyPad/KeyPad.fbx
+  artifactKey: Guid(5890caae121d760489e04b0cd1f74962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/KeyPad/KeyPad.fbx using Guid(5890caae121d760489e04b0cd1f74962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d7c6e3d325455b10527f2b4f472f45') in 0.338294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HurricaneVR/TechDemo/Materials/HVR_White.mat
+  artifactKey: Guid(5a9738d60c2b0ad4089daf58cab6de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Materials/HVR_White.mat using Guid(5a9738d60c2b0ad4089daf58cab6de0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f34ed78d8f26f68abb030cbb2df15c2') in 0.012955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HurricaneVR/TechDemo/Assets/Interactables/Hurricane Freshener Glass Bottle/Prefabs/BrokenHurricaneFreshener.prefab
+  artifactKey: Guid(a98b867a4bb4ed548a15a94e5f9f2616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Assets/Interactables/Hurricane Freshener Glass Bottle/Prefabs/BrokenHurricaneFreshener.prefab using Guid(a98b867a4bb4ed548a15a94e5f9f2616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e0b3d81567f5b4bcbc19e490feb562') in 0.016456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HurricaneVR/TechDemo/Materials/HVR_Grid_LightPurple.mat
+  artifactKey: Guid(ad25ae34c349a74429318673d8665e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Materials/HVR_Grid_LightPurple.mat using Guid(ad25ae34c349a74429318673d8665e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517d73b174348a15c5c1430924b14dd2') in 0.012317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HurricaneVR/TechDemo/EasyColliderHulls/button_stand_ConvexHull_0.asset
+  artifactKey: Guid(7d97d9c2d6081de44bcd299c01208eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/EasyColliderHulls/button_stand_ConvexHull_0.asset using Guid(7d97d9c2d6081de44bcd299c01208eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2d7e3b90647d1f5a952c7ca4e8a952') in 0.012477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HurricaneVR/TechDemo/Materials/HVR_Charcoal.mat
+  artifactKey: Guid(e1e64696df7da9048bb7ac1df8ee93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Materials/HVR_Charcoal.mat using Guid(e1e64696df7da9048bb7ac1df8ee93cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f2342a86c0cfd5d0c1ea5e10eca784') in 0.012527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HurricaneVR/TechDemo/Materials/HVR_Grid_DarkBlue.mat
+  artifactKey: Guid(e0b1a16f4150deb4fbe59bf2122ba5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/TechDemo/Materials/HVR_Grid_DarkBlue.mat using Guid(e0b1a16f4150deb4fbe59bf2122ba5f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b60c463cc5cfa3b93bd418465302ab') in 0.012378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HurricaneVR/Framework/Resources/HandSettings/HVR_Stabilizer_TwoHanded.asset
+  artifactKey: Guid(984d36eac3c1854408dbc8f5493acd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Resources/HandSettings/HVR_Stabilizer_TwoHanded.asset using Guid(984d36eac3c1854408dbc8f5493acd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ee2fa3d06a95f4947686d57818c28f') in 0.006928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HurricaneVR/Framework/Resources/HVR_ControllerOffsets.asset
+  artifactKey: Guid(59fc82dc1cb718745ac93844b67b3644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HurricaneVR/Framework/Resources/HVR_ControllerOffsets.asset using Guid(59fc82dc1cb718745ac93844b67b3644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3c15ab96426dd88385e98f63375c67') in 0.006994 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

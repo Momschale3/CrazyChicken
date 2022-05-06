@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Furniture
+  - projectile
   layers:
   - Default
   - TransparentFX
@@ -17,6 +18,7 @@ TagManager:
   - Body
   - Grab
   - Furniture
+  - DynamicPose
   - 
   - 
   - 
@@ -25,9 +27,8 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - Grabbable
+  - Hand
   - 
   - 
   - 
