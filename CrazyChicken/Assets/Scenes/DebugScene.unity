@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571374, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 55481846}
   - component: {fileID: 55481845}
   - component: {fileID: 55481844}
+  - component: {fileID: 55481848}
   m_Layer: 10
   m_Name: Cube (3)
   m_TagString: Furniture
@@ -220,6 +221,19 @@ Transform:
   m_Father: {fileID: 1502911075}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &55481848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55481843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1d156bfbfdacc4fb7ac089176646e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10000
 --- !u!1 &57442625
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,6 +563,7 @@ GameObject:
   - component: {fileID: 681169269}
   - component: {fileID: 681169268}
   - component: {fileID: 681169267}
+  - component: {fileID: 681169271}
   m_Layer: 10
   m_Name: Cube (1)
   m_TagString: Furniture
@@ -634,6 +649,19 @@ Transform:
   m_Father: {fileID: 1502911075}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &681169271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681169266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1d156bfbfdacc4fb7ac089176646e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10000
 --- !u!1001 &694119750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -732,6 +760,7 @@ GameObject:
   - component: {fileID: 723507490}
   - component: {fileID: 723507489}
   - component: {fileID: 723507488}
+  - component: {fileID: 723507494}
   m_Layer: 0
   m_Name: Chicken
   m_TagString: Untagged
@@ -751,6 +780,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: accf082c7c1133241805a68f6db7117f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  furniTemp: {fileID: 0}
+  isAtFurniture: 0
   wanderTimer: 1
   wanderRadius: 3
   furnitureNoticeDistance: 0
@@ -859,6 +890,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &723507494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723507487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d597ea3c72a22d7499741636360c4112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroySpeed: 3
 --- !u!1 &838711708
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +915,7 @@ GameObject:
   - component: {fileID: 838711711}
   - component: {fileID: 838711710}
   - component: {fileID: 838711709}
+  - component: {fileID: 838711713}
   m_Layer: 10
   m_Name: Cube
   m_TagString: Furniture
@@ -956,6 +1001,19 @@ Transform:
   m_Father: {fileID: 1502911075}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &838711713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838711708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1d156bfbfdacc4fb7ac089176646e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10000
 --- !u!4 &953450066 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4135013735270702856, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
@@ -1107,6 +1165,7 @@ GameObject:
   - component: {fileID: 1680814306}
   - component: {fileID: 1680814305}
   - component: {fileID: 1680814304}
+  - component: {fileID: 1680814308}
   m_Layer: 10
   m_Name: Cube (2)
   m_TagString: Furniture
@@ -1192,6 +1251,19 @@ Transform:
   m_Father: {fileID: 1502911075}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1680814308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680814303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1d156bfbfdacc4fb7ac089176646e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10000
 --- !u!1 &1813849025
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,7 +1369,7 @@ GameObject:
   - component: {fileID: 2107423000}
   - component: {fileID: 2107422999}
   m_Layer: 0
-  m_Name: Chicken_Spawner
+  m_Name: Game_Events
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

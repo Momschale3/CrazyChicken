@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,9 @@ public class CickenMovement : MonoBehaviour
     //Gameobjects
     private GameObject[] FurnitureArray;
 
+    // NEW!! EYPERIMENTAL!
+    public GameObject furniTemp;
+
     /*/--------------------------------------------------------------------------------------------------------------/*/
 
     //Ints
@@ -24,7 +28,7 @@ public class CickenMovement : MonoBehaviour
     /*/--------------------------------------------------------------------------------------------------------------/*/
 
     //Bools
-    private bool isAtFurniture = false;
+    public bool isAtFurniture = false;
 
     /*/--------------------------------------------------------------------------------------------------------------/*/
 
@@ -97,11 +101,12 @@ public class CickenMovement : MonoBehaviour
         # region NEW block of code
         // distance of the chicken to the first furniture object (reason: see l. 109)
         float distanceTemp = Vector3.Distance(FurnitureArray[0].gameObject.transform.position, this.gameObject.transform.position);
-        GameObject furniTemp = FurnitureArray[0];
+        furniTemp = FurnitureArray[0];
+        // GameObject furniTemp = FurnitureArray[0];
         #endregion NEW block of code
-        
 
-        foreach(GameObject furni in FurnitureArray) //Geh durch alle M�bel druch und suche das was am n�chsten ist
+
+        foreach (GameObject furni in FurnitureArray) //Geh durch alle M�bel druch und suche das was am n�chsten ist
         {
             
             #region OLD block of code:
