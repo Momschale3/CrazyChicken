@@ -33,10 +33,10 @@ public class CickenMovement : MonoBehaviour
     public float wanderTimer;
     public int wanderRadius;
 
-    [Tooltip("Die maximale Distanz zwischen dem Huhn und dem Möbelstück")]
+    [Tooltip("Die maximale Distanz zwischen dem Huhn und dem Mï¿½belstï¿½ck")]
     public int furnitureNoticeDistance;
 
-    [Tooltip("Hier kannst du die Geschwindigkeit des Hühnchens verändern.")]
+    [Tooltip("Hier kannst du die Geschwindigkeit des Hï¿½hnchens verï¿½ndern.")]
     public int chickenSpeed;
 
     public LayerMask furniture_LM;
@@ -69,7 +69,7 @@ public class CickenMovement : MonoBehaviour
 
         if (timer >= wanderTimer && isAtFurniture == false) //Abklingzeit vom Laufpunkten
         {
-            if (Physics.CheckSphere(this.gameObject.transform.position, wanderRadius, furniture_LM)) //Falls Möbel in Radius -> Got To Möbel
+            if (Physics.CheckSphere(this.gameObject.transform.position, wanderRadius, furniture_LM)) //Falls Mï¿½bel in Radius -> Got To Mï¿½bel
             {
                 isAtFurniture = true;
                 ChickenToFurniture();
@@ -94,12 +94,39 @@ public class CickenMovement : MonoBehaviour
 
         Debug.Log("Furni gefunden!");
 
-        foreach(GameObject furni in FurnitureArray) //Geh durch alle Möbel druch und suche das was am nächsten ist
+        # region NEW block of code
+        // distance of the chicken to the first furniture object (reason: see l. 109)
+        float distanceTemp = Vector3.Distance(FurnitureArray[0].gameObject.transform.position, this.gameObject.transform.position);
+        GameObject furniTemp = FurnitureArray[0];
+        #endregion NEW block of code
+        
+
+        foreach(GameObject furni in FurnitureArray) //Geh durch alle Mï¿½bel druch und suche das was am nï¿½chsten ist
         {
+            
+            #region OLD block of code:
+            /*
+             hat nicht das je nÃ¤heste MÃ¶belstÃ¼ck genommen, sondern das erste, das die Bedingung erfÃ¼llt (ergo sind immer alle zum gleichen MÃ¶belstÃ¼ck gelaufen)
             if(Vector3.Distance(furni.gameObject.transform.position, this.gameObject.transform.position) <= wanderRadius + 10)
             {
                 agent.SetDestination(furni.transform.position);               
             }
+            */
+            #endregion OLD block of code:
+
+            #region NEW block of code:
+            // if the distance of chicken to the (temporary) furni is smaller than the last one...
+            if (Vector3.Distance(furni.gameObject.transform.position, this.gameObject.transform.position) < distanceTemp)
+            {
+                // ... then set it as the (new) goal...
+                furniTemp = furni;
+                // ... and update the distance to which the next furni will be compared
+                distanceTemp = Vector3.Distance(furni.gameObject.transform.position, this.gameObject.transform.position);
+            }
+                agent.SetDestination(furniTemp.transform.position);
+            #endregion NEW block of code:
+            
+            
         }
        
     }
